@@ -1,12 +1,17 @@
 import Hero from "@/components/Hero";
 import WhyAfrica from "@/components/WhyAfrica";
-import Regions from "@/components/Regions";
+
 import Pillars from "@/components/Pillars";
-import Vision from "@/components/Vision";
 import Network from "@/components/Network";
 import Leadership from "@/components/Leadership";
-import CTA from "@/components/CTA";
+
 import Footer from "@/components/Footer";
+import Opportunity from "@/components/Opportunity";
+import Ventures from "@/components/Ventures";
+import Assets from "@/components/Assets";
+import Partnerships from "@/components/Partnerships";
+import Connect from "@/components/Connect";
+import Support from "@/components/Support";
 
 export default function Home() {
   return (
@@ -35,15 +40,19 @@ export default function Home() {
       {/* 4. THE CONTENT LAYER
           z-20 ensures all your components sit ON TOP of the background and overlay.
       */}
-      <div className='relative z-20 w-full'>
+      <div className='relative z-20 w-full border-green-400 outline-violet-700 outline-2'>
         <Hero />
+        <Opportunity />
         <WhyAfrica />
-        <Regions />
         <Pillars />
-        <Vision />
-        <Network />
+        <Ventures />
+        <Assets />
+        <Partnerships />
         <Leadership />
-        <CTA />
+        <Network />
+        <Connect />
+        <Support />
+
         <Footer />
       </div>
     </main>

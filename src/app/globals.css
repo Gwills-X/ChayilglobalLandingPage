@@ -1,22 +1,56 @@
-/* Import Google Fonts at the very top */
+/* ============================= */
+/* GOOGLE FONTS */
+/* ============================= */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap");
 @import "tailwindcss";
-/* Global Body Styles */
-body {
-  font-family: "Inter", sans-serif;
-  background: linear-gradient(
-    to bottom,
-    #0a0a0a,
-    #1f2937
-  ); /* subtle gradient for depth */
-  color: #f0f0f0;
+
+/* ============================= */
+/* GLOBAL RESET */
+/* ============================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* ============================= */
+/* ROOT SAFETY (VERY IMPORTANT) */
+/* ============================= */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* 🔥 prevents right-side space globally */
+}
+
+/* ============================= */
+/* BODY STYLING */
+/* ============================= */
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to bottom, #0a0a0a, #1f2937);
+  color: #f0f0f0;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
 
-/* Headings Styles */
+/* ============================= */
+/* MEDIA FIXES (PREVENT OVERFLOW) */
+/* ============================= */
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ============================= */
+/* TYPOGRAPHY */
+/* ============================= */
 h1,
 h2,
 h3,
@@ -24,32 +58,50 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-  color: #ffffff; /* elegant white for headings */
+  color: #ffffff;
   margin: 0;
 }
 
-/* Links */
+/* ============================= */
+/* LINKS */
+/* ============================= */
 a {
-  color: #3b82f6; /* Tailwind blue-500 */
+  color: #3b82f6;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #60a5fa; /* Tailwind blue-400 */
+  color: #60a5fa;
 }
 
-/* Utility Defaults */
+/* ============================= */
+/* TEXT DEFAULTS */
+/* ============================= */
 p {
   margin-bottom: 1rem;
 }
 
+/* ============================= */
+/* BUTTON DEFAULTS */
+/* ============================= */
 button {
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-/* Optional subtle glow for premium feel */
+/* ============================= */
+/* UTILITY CLASSES */
+/* ============================= */
+
+/* Optional glow effect */
 .glow {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
+
+/* Debug helper (use temporarily) */
+/* 
+* {
+  outline: 1px solid red;
+}
+*/
