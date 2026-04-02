@@ -79,9 +79,9 @@ export default function Assets() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className='grid grid-cols-2 gap-4 h-[600px]'>
+            className='grid grid-cols-2 max-lg:grid-cols-1 gap-4 h-[600px]'>
             {/* Aerial Farmland */}
-            <div className='relative rounded-[2rem] overflow-hidden col-span-2 h-full group'>
+            <div className='relative rounded-[2rem] overflow-hidden col-span-2 max-lg:col-span-1 h-full group'>
               <img
                 src='WhatsApp Image 2026-04-02 at 1.33.18 PM.jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 '
@@ -89,21 +89,20 @@ export default function Assets() {
               />
               <div className='absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors' />
             </div>
-
-            {/* Cultivation */}
-            <div className='relative rounded-[2.5rem] overflow-hidden group '>
-              <img
-                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (2).jpeg'
-                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
-                alt='Cultivation'
-              />
-            </div>
             {/* Land Clearing */}
             <div className='relative rounded-[2.5rem] overflow-hidden group'>
               <img
                 src='WhatsApp Image 2026-04-02 at 1.33.18 PM (1).jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
                 alt='Land Development'
+              />
+            </div>
+            {/* Cultivation */}
+            <div className='relative rounded-[2.5rem] overflow-hidden group '>
+              <img
+                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (2).jpeg'
+                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
+                alt='Cultivation'
               />
             </div>
           </motion.div>
