@@ -49,7 +49,7 @@ export default function Hero() {
               className='w-full sm:w-auto px-8 md:px-10 py-5 bg-[#DFFF8F] text-black font-bold rounded-full shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'
               href='https://docs.google.com/forms/d/e/1FAIpQLSe7bvEJLfT6TmwdrKsR-he5ngOM_Uxd9iJkgvGmf6aQCvqeLg/viewform'
               target='__blank'>
-              Request Private Investor Access
+              Request Private Access
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'

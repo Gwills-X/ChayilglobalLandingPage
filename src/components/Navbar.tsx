@@ -15,10 +15,11 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { name: "Home", href: "#hero" },
     { name: "Why Africa", href: "#why-africa" },
-    { name: "Regions", href: "#regions" },
-    { name: "Pillars", href: "#pillars" },
-    { name: "Vision", href: "#vision" },
+
+    { name: "Venture", href: "#ventures" },
+    { name: "Partnership", href: "#partnership" },
     { name: "Network", href: "#network" },
     { name: "Leadership", href: "#leadership" },
   ];

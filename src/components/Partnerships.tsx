@@ -62,7 +62,7 @@ const pathways = [
 export default function Partnerships() {
   return (
     <section
-      id='partnerships'
+      id='partnership'
       className='relative py-32 px-6 bg-transparent text-white'>
       {/* Subtle background depth */}
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#DFFF8F]/5 blur-[120px] rounded-full pointer-events-none' />
