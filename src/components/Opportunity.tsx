@@ -85,7 +85,7 @@ export default function Opportunity() {
                 faith, leadership and enterprise.
               </span>
             </p>
-            <p className='text-gray-400 text-base md:text-lg leading-relaxed max-w-xl'>
+            <p className='text-gray-200 text-base md:text-lg leading-relaxed max-w-xl'>
               Designed to mobilise global capital, African opportunity and
               kingdom-minded leadership to build institutions, assets and
               long-term development initiatives across the continent.
@@ -102,13 +102,13 @@ export default function Opportunity() {
             <h3 className='text-lg md:text-xl font-bold mb-6 text-white'>
               Market Transformation
             </h3>
-            <p className='text-gray-400 text-sm md:text-base leading-relaxed mb-6'>
+            <p className='text-gray-200 text-sm md:text-base leading-relaxed mb-6'>
               Africa is entering a period of significant demographic and
               economic transformation. With the world’s fastest growing
               population, the continent presents major opportunities for
               agricultural development and infrastructure growth.
             </p>
-            <p className='text-gray-400 text-sm md:text-base leading-relaxed'>
+            <p className='text-gray-200 text-sm md:text-base leading-relaxed'>
               We position global partners and diaspora leaders to participate
               meaningfully in this next era through carefully structured
               ventures.
@@ -132,7 +132,7 @@ export default function Opportunity() {
               <h4 className='text-xl font-bold mb-4 text-white group-hover:text-[#DFFF8F] transition-colors'>
                 {pillar.title}
               </h4>
-              <p className='text-gray-500 text-sm leading-relaxed group-hover:text-gray-300'>
+              <p className='text-gray-300 text-sm leading-relaxed group-hover:text-gray-100'>
                 {pillar.desc}
               </p>
             </motion.div>
@@ -147,7 +147,7 @@ export default function Opportunity() {
           transition={{ delay: 0.6 }}
           className='mt-24 text-center'>
           <div className='h-[1px] w-16 bg-[#DFFF8F]/30 mx-auto mb-8' />
-          <p className='text-gray-400 font-serif italic text-lg md:text-xl max-w-3xl mx-auto leading-relaxed'>
+          <p className='text-gray-300 font-serif italic text-lg md:text-xl max-w-3xl mx-auto leading-relaxed'>
             Chayil Global is designed as a long-term platform for building
             leadership, enterprise and institutional infrastructure across
             Africa for the generations to come.

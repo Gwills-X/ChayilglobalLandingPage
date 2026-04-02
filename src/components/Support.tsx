@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Support() {
   return (
     <section
-      className='relative py-32 px-6 overflow-hidden text-white bg-transparent'
+      className='relative py-25 px-6 overflow-hidden text-white bg-transparent'
       id='support'>
       {/* Background radial glow - centered behind the text to draw the eye */}
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#DFFF8F]/10 blur-[120px] rounded-full pointer-events-none' />
@@ -53,7 +53,7 @@ export default function Support() {
 
               <div className='h-[1px] w-12 bg-white/10 mx-auto' />
 
-              <p className='text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto italic'>
+              <p className='text-gray-300 text-base md:text-lg leading-relaxed max-w-2xl mx-auto italic'>
                 These early supporters represent the foundational community
                 behind the Chayil vision as we expand our enterprise and
                 investment initiatives.
@@ -67,7 +67,7 @@ export default function Support() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 1, duration: 1 }}
-            className='mt-12 text-gray-500 font-medium tracking-[0.5em] uppercase text-[10px]'>
+            className='mt-12 text-gray-300 font-medium tracking-[0.5em] uppercase text-[10px]'>
             Foundational • Support • Expansion
           </motion.p>
         </motion.div>

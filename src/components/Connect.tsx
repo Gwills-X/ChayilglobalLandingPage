@@ -6,7 +6,7 @@ export default function Connect() {
   return (
     <section
       id='connect'
-      className='relative py-20 md:py-32 px-4 sm:px-6 overflow-x-hidden'>
+      className='relative py-20 md:py-15 x-4 sm:px-6 overflow-x-hidden '>
       {/* Background glow (FIXED - responsive width) */}
       <div className='absolute bottom-0 left-1/2 -translate-x-1/2 w-[90%] max-w-[800px] h-[250px] md:h-[400px] bg-[#DFFF8F]/10 blur-[120px] rounded-full pointer-events-none' />
 
@@ -38,7 +38,7 @@ export default function Connect() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className='text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed mb-10 md:mb-12 max-w-2xl mx-auto px-2'>
+          className='text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed mb-10 md:mb-12 max-w-2xl mx-auto px-2'>
           Join a select network of visionaries building the next era of African
           institutions. We invite you to explore how your goals align with the
           Chayil Global ecosystem.
@@ -58,35 +58,6 @@ export default function Connect() {
           <button className='w-full sm:w-auto px-8 sm:px-10 py-4 rounded-full border border-white/20 text-white font-bold text-sm hover:bg-white/5 transition-all'>
             Download Prospectus
           </button>
-        </motion.div>
-
-        {/* Footer Info */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className='mt-16 md:mt-24 pt-10 md:pt-12 border-t border-white/5'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 text-xs sm:text-sm text-gray-500 font-mono uppercase'>
-            <div className='flex flex-col gap-1 sm:gap-2'>
-              <span className='text-white/40'>Inquiries</span>
-              <p className='text-gray-400 break-words'>
-                partnerships@chayilglobal.com
-              </p>
-            </div>
-
-            <div className='flex flex-col gap-1 sm:gap-2'>
-              <span className='text-white/40'>Regions</span>
-              <p className='text-gray-400'>
-                West Africa • East Africa • Diaspora
-              </p>
-            </div>
-
-            <div className='flex flex-col gap-1 sm:gap-2'>
-              <span className='text-white/40'>Focus</span>
-              <p className='text-gray-400'>Leadership • Assets • Enterprise</p>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>

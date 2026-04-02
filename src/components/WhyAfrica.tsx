@@ -28,7 +28,7 @@ const stats = [
 export default function WhyAfrica() {
   return (
     <section
-      className='relative py-24 md:py-32 px-6 overflow-x-clip bg-transparent border border-green-400'
+      className='relative py-24 md:py-32 px-6 overflow-x-clip bg-transparent '
       id='why-africa'>
       {/* --- OVERLAYS (Fixed for Overflow) --- */}
       <div className='absolute inset-0 opacity-10 pointer-events-none'>
@@ -59,7 +59,7 @@ export default function WhyAfrica() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className='max-w-2xl mx-auto text-gray-400 text-base md:text-xl leading-relaxed'>
+            className='max-w-2xl mx-auto text-gray-300 text-base md:text-xl leading-relaxed'>
             Africa is entering one of the most significant periods of economic
             and demographic growth in modern history.
           </motion.p>
@@ -86,7 +86,7 @@ export default function WhyAfrica() {
               <h3 className='text-white font-bold text-lg md:text-xl mb-4 leading-tight'>
                 {stat.title}
               </h3>
-              <p className='text-gray-500 text-sm leading-relaxed relative z-10 group-hover:text-gray-300'>
+              <p className='text-gray-300 text-sm leading-relaxed relative z-10 group-hover:text-gray-300'>
                 {stat.desc}
               </p>
             </motion.div>

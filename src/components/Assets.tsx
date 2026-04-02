@@ -60,7 +60,7 @@ export default function Assets() {
               ))}
             </div>
 
-            <p className='text-gray-400 text-sm italic border-l-2 border-[#DFFF8F] pl-6 mb-8'>
+            <p className='text-gray-300 text-sm italic border-l-2 border-[#DFFF8F] pl-6 mb-8'>
               "Additional land acquisitions are currently underway as the
               platform continues to expand its agricultural footprint across
               strategic regions."
@@ -81,10 +81,10 @@ export default function Assets() {
             transition={{ duration: 1 }}
             className='grid grid-cols-2 gap-4 h-[600px]'>
             {/* Aerial Farmland */}
-            <div className='relative rounded-[2rem] overflow-hidden col-span-2 h-1/2 group'>
+            <div className='relative rounded-[2rem] overflow-hidden col-span-2 h-full group'>
               <img
                 src='https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000'
-                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
+                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 '
                 alt='Aerial Farmland'
               />
               <div className='absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors' />
@@ -92,13 +92,13 @@ export default function Assets() {
             {/* Land Clearing */}
             <div className='relative rounded-[2.5rem] overflow-hidden group'>
               <img
-                src='https://images.unsplash.com/photo-1592982537447-6f2a6a0c3c8b?q=80&w=1000'
+                src='dendoktoor-agriculture-8275498_1920.jpg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
                 alt='Land Development'
               />
             </div>
             {/* Cultivation */}
-            <div className='relative rounded-[2.5rem] overflow-hidden group'>
+            <div className='relative rounded-[2.5rem] overflow-hidden group '>
               <img
                 src='https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?q=80&w=1000'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'

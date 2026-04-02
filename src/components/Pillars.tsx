@@ -43,7 +43,7 @@ export default function Pillars() {
             The Chayil Global{" "}
             <span className='text-[#DFFF8F]'>Institutional Model</span>
           </h2>
-          <p className='max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed mb-10'>
+          <p className='max-w-3xl mx-auto text-gray-300 text-lg leading-relaxed mb-10'>
             Chayil Global operates as a multi-sector platform designed to
             integrate leadership development, enterprise ventures, media
             platforms and mission-driven initiatives to create both economic
@@ -63,7 +63,7 @@ export default function Pillars() {
               transition={{ delay: i * 0.2, duration: 0.6 }}
               whileHover={{ scale: 1.02 }}
               className='relative p-10 rounded-[2.5rem] bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-sm group hover:border-[#DFFF8F]/30 transition-all duration-500'>
-              <span className='block text-[#DFFF8F] font-mono text-sm mb-6 tracking-widest opacity-60 group-hover:opacity-100 transition-opacity'>
+              <span className='block text-[#DFFF8F] font-mono text-sm mb-6 tracking-widest opacity-80 group-hover:opacity-100 transition-opacity'>
                 //{pillar.number}
               </span>
 
@@ -71,7 +71,7 @@ export default function Pillars() {
                 {pillar.title}
               </h3>
 
-              <p className='text-gray-400 leading-relaxed text-base group-hover:text-gray-200 transition-colors'>
+              <p className='text-gray-300 leading-relaxed text-base group-hover:text-gray-100 transition-colors'>
                 {pillar.description}
               </p>
 
@@ -87,7 +87,7 @@ export default function Pillars() {
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.5 }}
           className='text-center max-w-4xl mx-auto pt-10 border-t border-white/5'>
-          <p className='text-gray-500 font-serif italic text-xl leading-relaxed'>
+          <p className='text-gray-300 font-serif italic text-xl leading-relaxed'>
             Chayil Global combines leadership development, enterprise and
             kingdom-focused initiatives to build institutions and strategic
             assets designed to serve communities and create lasting impact

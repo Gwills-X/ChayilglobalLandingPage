@@ -52,7 +52,7 @@ export default function Network() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className='text-gray-400 leading-relaxed text-lg max-w-3xl mx-auto'>
+            className='text-gray-200 leading-relaxed text-lg max-w-3xl mx-auto'>
             The Founding Network brings together investors, partners and
             institutional allies who share the vision of building leadership
             institutions and long-term development initiatives across Africa.
@@ -74,7 +74,7 @@ export default function Network() {
               <h3 className='text-lg font-bold mb-3 group-hover:text-[#DFFF8F] transition-colors'>
                 {item.title}
               </h3>
-              <p className='text-gray-400 text-xs leading-relaxed group-hover:text-gray-300'>
+              <p className='text-gray-200 text-xs leading-relaxed group-hover:text-gray-300'>
                 {item.desc}
               </p>
             </motion.div>

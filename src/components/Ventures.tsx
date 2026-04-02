@@ -6,14 +6,12 @@ const ventures = [
   {
     title: "Agricultural Land Development",
     desc: "Development of agricultural land projects focused on high-demand crops including palm, cocoa and cashew, with a focus on scalable production.",
-    image:
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000", // Farmland
+    image: "agriculture.jpeg", // Farmland
   },
   {
     title: "Land Acquisition & Property",
     desc: "Strategic initiatives designed to secure land assets for agricultural use, estate development and long-term infrastructure across West Africa.",
-    image:
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000", // Land/Maps
+    image: "landAcquisition.jpeg", // Land/Maps
   },
   {
     title: "Strategic Enterprise Ventures",
@@ -54,7 +52,7 @@ export default function Ventures() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className='text-gray-400 max-w-sm text-sm leading-relaxed border-l border-[#DFFF8F]/30 pl-6'>
+            className='text-gray-300 max-w-sm text-sm leading-relaxed border-l border-[#DFFF8F]/30 pl-6'>
             Several initiatives are already underway as partnerships and
             development activities continue to expand across the continent.
           </motion.p>
@@ -69,10 +67,10 @@ export default function Ventures() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className='group relative h-[450px] rounded-[2rem] overflow-hidden border border-white/10'>
+              className='group relative h-[300px] rounded-[2rem] overflow-hidden border border-white/10'>
               {/* Background Image with Overlay */}
               <div
-                className='absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-all duration-700'
+                className='absolute inset-0 bg-cover bg-center group-hover:scale-110 transition-all duration-700 group-hover:brightness-50'
                 style={{ backgroundImage: `url(${item.image})` }}
               />
               <div className='absolute pt-20' />
@@ -82,7 +80,7 @@ export default function Ventures() {
                 <h3 className='text-xl font-bold text-white mb-4 group-hover:text-[#DFFF8F] transition-colors'>
                   {item.title}
                 </h3>
-                <p className='text-gray-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500'>
+                <p className='text-gray-100 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500'>
                   {item.desc}
                 </p>
               </div>
@@ -109,7 +107,7 @@ export default function Ventures() {
               ].map((point) => (
                 <li
                   key={point}
-                  className='text-gray-400 text-sm flex items-start gap-3'>
+                  className='text-gray-200 text-sm flex items-start gap-3'>
                   <span className='text-[#DFFF8F] mt-1'>▹</span> {point}
                 </li>
               ))}
@@ -120,7 +118,7 @@ export default function Ventures() {
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             className='text-right lg:text-left'>
-            <p className='text-gray-500 italic text-sm leading-relaxed'>
+            <p className='text-gray-300 italic text-sm leading-relaxed'>
               "These ventures represent the early stages of a broader platform
               designed to develop strategic assets and long-term institutional
               initiatives across Africa."

@@ -82,7 +82,7 @@ export default function Partnerships() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className='max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed'>
+            className='max-w-3xl mx-auto text-gray-300 text-lg leading-relaxed'>
             Chayil Global welcomes partners who share the vision of building
             leadership, enterprise and strategic assets across Africa.
             Participation takes several forms aligned with your expertise and
@@ -108,7 +108,7 @@ export default function Partnerships() {
                 {path.title}
               </h3>
 
-              <p className='text-gray-400 text-sm leading-relaxed mb-6'>
+              <p className='text-gray-200 group-hover:text-amber-100 text-sm leading-relaxed mb-6'>
                 {path.desc}
               </p>
 
