@@ -9,9 +9,9 @@ export default function Hero() {
     <section
       id='hero'
       // overflow-x-clip is the strongest way to prevent horizontal scrolling on mobile
-      className='relative min-h-screen w-full flex items-center  text-white bg-transparent pt-20 pb-10 border-green-400'>
+      className='relative min-h-screen w-full flex items-center  text-white bg-transparent pt-20 pb-10 '>
       {/* --- OVERLAYS --- */}
-      <div className='absolute inset-0 z-10 bg-black/30 pointer-events-none border-green-400' />
+      <div className='absolute inset-0 z-10 bg-black/30 pointer-events-none ' />
 
       {/* --- MAIN CONTENT CONTAINER --- */}
       <div className='relative z-20 w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-10 lg:gap-24'>
@@ -21,12 +21,12 @@ export default function Hero() {
             initial={{ y: -30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.2 }}>
-            <span className='text-[#DFFF8F] font-mono text-xs md:text-sm tracking-[0.3em] uppercase mb-4 block max-lg:pt-5'>
+            <span className='text-amber-300 font-mono text-xs md:text-sm tracking-[0.3em] uppercase mb-4 block max-lg:pt-5'>
               Kingdom Institutional Platform
             </span>
             <h1 className='text-3xl sm:text-3xl lg:text-5xl font-serif font-bold mb-3 leading-[1.1] tracking-tight mx-auto md:mx-0'>
               Connecting Global Capital, Leadership and Strategic Development{" "}
-              <span className='text-[#DFFF8F]'>Across Africa</span>
+              <span className='text-amber-300'>Across Africa</span>
             </h1>
           </motion.div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.6 }}
             className='flex flex-col items-center md:items-start gap-4'>
             <a
-              className='w-full sm:w-auto px-8 md:px-10 py-5 bg-[#DFFF8F] text-black font-bold rounded-full shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'
+              className='w-full sm:w-auto px-8 md:px-10 py-5 bg-amber-text-amber-300 text-black font-bold rounded-full bg-amber-300 shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'
               href='https://docs.google.com/forms/d/e/1FAIpQLSe7bvEJLfT6TmwdrKsR-he5ngOM_Uxd9iJkgvGmf6aQCvqeLg/viewform'
               target='__blank'>
               Request Private Access
@@ -65,8 +65,8 @@ export default function Hero() {
               </svg>
             </a>
             <p className='text-[10px] uppercase tracking-[0.2em] text-gray-300 max-w-xs leading-relaxed'>
-              Opportunities are shared privately with qualified partners
-              following application review.
+              Strategic opportunities are shared privately with qualified
+              investors following application review.
             </p>
           </motion.div>
         </div>

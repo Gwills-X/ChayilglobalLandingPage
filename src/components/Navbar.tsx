@@ -41,7 +41,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href='/' className='flex items-center gap-2 group'>
             <span className='text-xl md:text-2xl font-serif font-bold tracking-tighter text-white'>
-              CHAYIL <span className='text-[#DFFF8F]'>GLOBAL</span>
+              CHAYIL <span className='text-amber-300'>GLOBAL</span>
             </span>
           </Link>
 
