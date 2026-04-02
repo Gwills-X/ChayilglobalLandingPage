@@ -18,7 +18,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className='mb-5 flex flex-col gap-2 text-center '>
           <h2 className='text-2xl font-serif font-bold text-white tracking-widest uppercase'>
-            Chayil <span className='text-[#DFFF8F]'>Global</span>
+            Chayil <span className='text-[#c6a85a]'>Global</span>
           </h2>
           <p>
             Chayil Global exists to connect global investors and partners with
@@ -32,7 +32,7 @@ export default function Footer() {
           {["Faith", "Leadership", "Enterprise"].map((item) => (
             <span
               key={item}
-              className='text-gray-400 text-sm font-mono tracking-[0.2em] uppercase hover:text-[#DFFF8F] transition-colors cursor-default'>
+              className='text-gray-400 text-sm font-mono tracking-[0.2em] uppercase hover:text-[#c6a85a] transition-colors cursor-default'>
               {item}
             </span>
           ))}
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         {/* Decorative corner glows to frame the bottom of the page */}
-        <div className='absolute -bottom-10 -left-10 w-40 h-40 bg-[#DFFF8F]/5 blur-3xl rounded-full pointer-events-none' />
+        <div className='absolute -bottom-10 -left-10 w-40 h-40 bg-[#c6a85a]/5 blur-3xl rounded-full pointer-events-none' />
         <div className='absolute -bottom-10 -right-10 w-40 h-40 bg-white/5 blur-3xl rounded-full pointer-events-none' />
       </div>
     </footer>

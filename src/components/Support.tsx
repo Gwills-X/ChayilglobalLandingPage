@@ -8,7 +8,7 @@ export default function Support() {
       className='relative py-25 px-6 overflow-hidden text-white bg-transparent'
       id='support'>
       {/* Background radial glow - centered behind the text to draw the eye */}
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#DFFF8F]/10 blur-[120px] rounded-full pointer-events-none' />
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#c6a85a]/10 blur-[120px] rounded-full pointer-events-none' />
 
       <div className='relative z-10 max-w-5xl mx-auto'>
         <motion.div
@@ -18,13 +18,13 @@ export default function Support() {
           transition={{ duration: 1 }}
           className='text-center'>
           {/* Section Label */}
-          <span className='text-[#DFFF8F] font-mono text-xs tracking-[0.4em] uppercase mb-6 block'>
+          <span className='text-[#c6a85a] font-mono text-xs tracking-[0.4em] uppercase mb-6 block'>
             Strategic Foundation
           </span>
 
           <h2 className='text-4xl md:text-5xl font-serif font-bold mb-10 tracking-tight leading-tight'>
             Strategic Support &{" "}
-            <span className='italic text-[#DFFF8F]'>Early Partners</span>
+            <span className='italic text-[#c6a85a]'>Early Partners</span>
           </h2>
 
           {/* The Content Box: Glassmorphism with a subtle inner glow */}
@@ -35,8 +35,8 @@ export default function Support() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className='relative p-10 md:p-16 rounded-[3rem] border border-white/10 bg-white/[0.02] backdrop-blur-sm shadow-2xl'>
             {/* Subtle corner accents */}
-            <div className='absolute top-8 left-8 w-4 h-4 border-t-2 border-l-2 border-[#DFFF8F]/30 rounded-tl-lg' />
-            <div className='absolute bottom-8 right-8 w-4 h-4 border-b-2 border-r-2 border-[#DFFF8F]/30 rounded-br-lg' />
+            <div className='absolute top-8 left-8 w-4 h-4 border-t-2 border-l-2 border-[#c6a85a]/30 rounded-tl-lg' />
+            <div className='absolute bottom-8 right-8 w-4 h-4 border-b-2 border-r-2 border-[#c6a85a]/30 rounded-br-lg' />
 
             <div className='space-y-8'>
               <p className='text-gray-300 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-light'>
@@ -48,7 +48,7 @@ export default function Support() {
                   missionary outreach{" "}
                 </span>
                 and community impact projects under
-                <span className='text-[#DFFF8F]'> Chayil Kingdom Impact</span>.
+                <span className='text-[#c6a85a]'> Chayil Kingdom Impact</span>.
               </p>
 
               <div className='h-[1px] w-12 bg-white/10 mx-auto' />

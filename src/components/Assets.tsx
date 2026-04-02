@@ -31,12 +31,12 @@ export default function Assets() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}>
-            <span className='text-[#DFFF8F] font-mono text-xs tracking-[0.4em] uppercase mb-4 block'>
+            <span className='text-[#c6a85a] font-mono text-xs tracking-[0.4em] uppercase mb-4 block'>
               Chayil Assets – Lands, Farms & Estates
             </span>
             <h2 className='text-4xl md:text-5xl font-serif font-bold text-white mb-8 leading-tight'>
               Existing Assets &{" "}
-              <span className='text-[#DFFF8F]'>Development</span>
+              <span className='text-[#c6a85a]'>Development</span>
             </h2>
 
             <p className='text-gray-300 text-lg leading-relaxed mb-6'>
@@ -60,7 +60,7 @@ export default function Assets() {
               ))}
             </div>
 
-            <p className='text-gray-300 text-sm italic border-l-2 border-[#DFFF8F] pl-6 mb-8'>
+            <p className='text-gray-300 text-sm italic border-l-2 border-[#c6a85a] pl-6 mb-8'>
               "Additional land acquisitions are currently underway as the
               platform continues to expand its agricultural footprint across
               strategic regions."

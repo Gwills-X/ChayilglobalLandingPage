@@ -43,7 +43,7 @@ export default function WhyAfrica() {
             whileInView={{ scaleX: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className='h-1 w-20 bg-[#DFFF8F] mx-auto mb-10 rounded-full origin-center'
+            className='h-1 w-20 bg-[#c6a85a] mx-auto mb-10 rounded-full origin-center'
           />
 
           <motion.h2
@@ -52,7 +52,7 @@ export default function WhyAfrica() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className='text-3xl md:text-6xl font-serif font-bold text-white mb-6 md:mb-8 tracking-tight'>
-            Why Africa — <span className='text-[#DFFF8F]'>Why Now</span>
+            Why Africa — <span className='text-[#c6a85a]'>Why Now</span>
           </motion.h2>
 
           <motion.p
@@ -74,7 +74,7 @@ export default function WhyAfrica() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
-              className='relative p-8 rounded-[2rem] bg-white/[0.03] border border-white/10 hover:border-[#DFFF8F]/40 transition-all group overflow-hidden'>
+              className='relative p-8 rounded-[2rem] bg-white/[0.03] border border-white/10 hover:border-[#c6a85a]/40 transition-all group overflow-hidden'>
               <div
                 className='absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity bg-cover bg-center pointer-events-none'
                 style={{
@@ -98,9 +98,9 @@ export default function WhyAfrica() {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className='max-w-4xl mx-auto p-8 md:p-12 rounded-[2.5rem] bg-gradient-to-br from-[#DFFF8F]/10 to-transparent border border-[#DFFF8F]/20 text-center'>
+          className='max-w-4xl mx-auto p-8 md:p-12 rounded-[2.5rem] bg-gradient-to-br from-[#c6a85a]/10 to-transparent border border-[#c6a85a]/20 text-center'>
           <p className='text-gray-200 text-base md:text-xl leading-relaxed'>
-            <strong className='text-[#DFFF8F] font-medium'>
+            <strong className='text-[#c6a85a] font-medium'>
               Chayil Global
             </strong>{" "}
             is positioned to participate in this growth by connecting partners
@@ -110,7 +110,7 @@ export default function WhyAfrica() {
         </motion.div>
 
         {/* Updated Glow - Using percentage based width for mobile safety */}
-        <div className='absolute -bottom-24 left-1/2 -translate-x-1/2 w-[90%] max-w-3xl h-64 bg-[#DFFF8F]/5 blur-[100px] rounded-full pointer-events-none' />
+        <div className='absolute -bottom-24 left-1/2 -translate-x-1/2 w-[90%] max-w-3xl h-64 bg-[#c6a85a]/5 blur-[100px] rounded-full pointer-events-none' />
       </div>
     </section>
   );

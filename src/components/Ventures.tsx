@@ -38,7 +38,7 @@ export default function Ventures() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className='max-w-2xl'>
-            <h2 className='text-[#DFFF8F] font-mono text-xs tracking-[0.4em] uppercase mb-6'>
+            <h2 className='text-[#c6a85a] font-mono text-xs tracking-[0.4em] uppercase mb-6'>
               Current Strategic Ventures
             </h2>
             <p className='text-3xl md:text-4xl font-serif font-bold text-white leading-tight'>
@@ -50,7 +50,7 @@ export default function Ventures() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className='text-gray-300 max-w-sm text-sm leading-relaxed border-l border-[#DFFF8F]/30 pl-6'>
+            className='text-gray-300 max-w-sm text-sm leading-relaxed border-l border-[#c6a85a]/30 pl-6'>
             Several initiatives are already underway as partnerships and
             development activities continue to expand across the continent.
           </motion.p>
@@ -75,7 +75,7 @@ export default function Ventures() {
 
               {/* Content */}
               <div className='absolute inset-0 p-8 flex flex-col justify-end'>
-                <h3 className='text-xl font-bold text-white mb-4 group-hover:text-[#DFFF8F] transition-colors'>
+                <h3 className='text-xl font-bold text-white mb-4 group-hover:text-[#c6a85a] transition-colors'>
                   {item.title}
                 </h3>
                 <p className='text-gray-100 text-sm leading-relaxed opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500'>
@@ -92,8 +92,8 @@ export default function Ventures() {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             className='lg:col-span-2 bg-white/[0.03] p-10 rounded-[2.5rem] border border-white/5 backdrop-blur-md'>
-            <h4 className='text-[#DFFF8F] font-bold mb-6 flex items-center gap-2'>
-              <span className='w-2 h-2 bg-[#DFFF8F] rounded-full animate-pulse' />
+            <h4 className='text-[#c6a85a] font-bold mb-6 flex items-center gap-2'>
+              <span className='w-2 h-2 bg-[#c6a85a] rounded-full animate-pulse' />
               Current Strategic Focus
             </h4>
             <ul className='grid md:grid-cols-2 gap-y-4 gap-x-8'>
@@ -106,7 +106,7 @@ export default function Ventures() {
                 <li
                   key={point}
                   className='text-gray-200 text-sm flex items-start gap-3'>
-                  <span className='text-[#DFFF8F] mt-1'>▹</span> {point}
+                  <span className='text-[#c6a85a] mt-1'>▹</span> {point}
                 </li>
               ))}
             </ul>

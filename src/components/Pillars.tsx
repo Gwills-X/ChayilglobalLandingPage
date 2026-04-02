@@ -12,13 +12,13 @@ const pillars = [
   {
     title: "Enterprise & Strategic Ventures",
     description:
-      "Building asset-backed ventures across agriculture, land development and strategic enterprise including Chayil Assets, Chayil Digital, Chayil TV, Chayil Couture Chayil Angels (Administrative and Operational Services).",
+      "Building asset-backed ventures across agriculture, land development and strategic enterprise including Chayil Assets, Chayil Digital, Chayil TV, Chayil Couture, Chayil Angels (Administrative and Operational Services).",
     number: "02",
   },
   {
     title: "Kingdom Impact & Social Transformation",
     description:
-      "Chayil Global integrates enterprise with humanitarian and spiritual impact through initiatives supporting widows, families and communities. * Kingdom Impact Missions * Worship City Project * Research University",
+      "Chayil Global integrates enterprise with humanitarian and spiritual impact through initiatives supporting widows, families and communities.                                  Kingdom Impact Missions -        *Worship City Project *Research University ",
     number: "03",
   },
 ];
@@ -29,7 +29,7 @@ export default function Pillars() {
       className='relative py-32 px-6 text-white overflow-hidden bg-transparent'
       id='pillars'>
       {/* Decorative background flare */}
-      <div className='absolute top-0 right-0 w-[500px] h-[500px] bg-[#DFFF8F]/5 blur-[150px] rounded-full pointer-events-none' />
+      <div className='absolute top-0 right-0 w-[500px] h-[500px] bg-[#c6a85a]/5 blur-[150px] rounded-full pointer-events-none' />
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         {/* --- SECTION HEADER: The Institutional Model Intro --- */}
@@ -41,7 +41,7 @@ export default function Pillars() {
           className='text-center mb-24'>
           <h2 className='text-4xl md:text-5xl font-serif font-bold mb-8 tracking-tight'>
             The Chayil Global{" "}
-            <span className='text-[#DFFF8F]'>Institutional Model</span>
+            <span className='text-[#c6a85a]'>Institutional Model</span>
           </h2>
           <p className='max-w-3xl mx-auto text-gray-300 text-lg leading-relaxed mb-10'>
             Chayil Global operates as a multi-sector platform designed to
@@ -49,7 +49,7 @@ export default function Pillars() {
             platforms and mission-driven initiatives to create both economic
             opportunity and long-term societal impact.
           </p>
-          <div className='h-1 w-20 bg-[#DFFF8F] mx-auto rounded-full' />
+          <div className='h-1 w-20 bg-[#c6a85a] mx-auto rounded-full' />
         </motion.div>
 
         {/* --- THE THREE PILLARS GRID --- */}
@@ -62,12 +62,12 @@ export default function Pillars() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.2, duration: 0.6 }}
               whileHover={{ scale: 1.02 }}
-              className='relative p-10 rounded-[2.5rem] bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-sm group hover:border-[#DFFF8F]/30 transition-all duration-500'>
-              <span className='block text-[#DFFF8F] font-mono text-sm mb-6 tracking-widest opacity-80 group-hover:opacity-100 transition-opacity'>
+              className='relative p-10 rounded-[2.5rem] bg-gradient-to-br from-white/10 to-transparent border border-white/10 backdrop-blur-sm group hover:border-[#c6a85a]/30 transition-all duration-500'>
+              <span className='block text-[#c6a85a] font-mono text-sm mb-6 tracking-widest opacity-80 group-hover:opacity-100 transition-opacity'>
                 //{pillar.number}
               </span>
 
-              <h3 className='text-2xl font-bold mb-6 group-hover:text-[#DFFF8F] transition-colors leading-tight'>
+              <h3 className='text-2xl font-bold mb-6 group-hover:text-[#c6a85a] transition-colors leading-tight'>
                 {pillar.title}
               </h3>
 
@@ -75,7 +75,7 @@ export default function Pillars() {
                 {pillar.description}
               </p>
 
-              <div className='absolute bottom-4 right-4 w-12 h-12 bg-[#DFFF8F]/10 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity' />
+              <div className='absolute bottom-4 right-4 w-12 h-12 bg-[#c6a85a]/10 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity' />
             </motion.div>
           ))}
         </div>

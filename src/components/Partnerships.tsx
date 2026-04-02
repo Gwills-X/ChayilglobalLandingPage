@@ -65,7 +65,7 @@ export default function Partnerships() {
       id='partnership'
       className='relative py-32 px-6 bg-transparent text-white'>
       {/* Subtle background depth */}
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#DFFF8F]/5 blur-[120px] rounded-full pointer-events-none' />
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#c6a85a]/5 blur-[120px] rounded-full pointer-events-none' />
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         {/* --- HEADER --- */}
@@ -76,7 +76,7 @@ export default function Partnerships() {
             viewport={{ once: true }}
             className='text-4xl md:text-5xl font-serif font-bold mb-8 tracking-tight'>
             Investment &{" "}
-            <span className='text-[#DFFF8F]'>Partnership Structure</span>
+            <span className='text-[#c6a85a]'>Partnership Structure</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -99,12 +99,12 @@ export default function Partnerships() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.15, duration: 0.6 }}
-              className='group relative bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[3rem] transition-all hover:border-[#DFFF8F]/40 hover:bg-white/10'>
-              <div className='text-[#DFFF8F] mb-8 group-hover:scale-110 transition-transform duration-300'>
+              className='group relative bg-white/5 backdrop-blur-md border border-white/10 p-10 rounded-[3rem] transition-all hover:border-[#c6a85a]/40 hover:bg-white/10'>
+              <div className='text-[#c6a85a] mb-8 group-hover:scale-110 transition-transform duration-300'>
                 {path.icon}
               </div>
 
-              <h3 className='text-2xl font-bold mb-4 group-hover:text-[#DFFF8F] transition-colors leading-snug'>
+              <h3 className='text-2xl font-bold mb-4 group-hover:text-[#c6a85a] transition-colors leading-snug'>
                 {path.title}
               </h3>
 
@@ -113,7 +113,7 @@ export default function Partnerships() {
               </p>
 
               {/* Accent Line */}
-              <div className='absolute top-0 left-1/2 -translate-x-1/2 w-0 h-[2px] bg-[#DFFF8F] transition-all group-hover:w-20 rounded-full' />
+              <div className='absolute top-0 left-1/2 -translate-x-1/2 w-0 h-[2px] bg-[#c6a85a] transition-all group-hover:w-20 rounded-full' />
             </motion.div>
           ))}
         </div>

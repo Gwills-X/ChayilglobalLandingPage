@@ -26,7 +26,7 @@ export default function Leadership() {
       className='relative py-24 md:py-32 px-6 text-white overflow-hidden bg-transparent'
       id='leadership'>
       {/* Background radial accent (Mobile Safe) */}
-      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-[600px] h-[600px] bg-[#DFFF8F]/5 blur-[120px] rounded-full pointer-events-none' />
+      <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-[600px] h-[600px] bg-[#c6a85a]/5 blur-[120px] rounded-full pointer-events-none' />
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         {/* --- HEADER & INTRO --- */}
@@ -35,12 +35,12 @@ export default function Leadership() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className='text-center mb-16 md:mb-24'>
-          <span className='text-[#DFFF8F] font-mono text-xs tracking-[0.4em] uppercase mb-4 block'>
+          <span className='text-[#c6a85a] font-mono text-xs tracking-[0.4em] uppercase mb-4 block'>
             Strategic Visionaries
           </span>
 
           <h2 className='text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-8 tracking-tight'>
-            Our <span className='text-[#DFFF8F]'>Leadership</span>
+            Our <span className='text-[#c6a85a]'>Leadership</span>
           </h2>
 
           <p className='max-w-3xl mx-auto text-gray-400 text-lg leading-relaxed font-light'>
@@ -59,7 +59,7 @@ export default function Leadership() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.2, duration: 0.8 }}
-              className='group relative w-full aspect-[9/10]  rounded-[3rem] overflow-hidden bg-black/20 border border-white/5 shadow-2xl transition-all duration-500 hover:border-[#DFFF8F]/20 hover:shadow-[#DFFF8F]/5'>
+              className='group relative w-full aspect-[9/10]  rounded-[3rem] overflow-hidden bg-black/20 border border-white/5 shadow-2xl transition-all duration-500 hover:border-[#c6a85a]/20 hover:shadow-[#c6a85a]/5'>
               {/* 1. The Portrait Image */}
               <Image
                 src={leader.image}
@@ -77,11 +77,11 @@ export default function Leadership() {
 
               {/* 4. The Content Container (Text fades in/up) */}
               <div className='absolute bottom-0 left-0 w-full p-8 md:p-12 z-20 flex flex-col items-start'>
-                <h3 className='text-2xl md:text-3xl lg:text-4xl font-serif font-bold mb-2 text-white group-hover:text-[#DFFF8F] transition-colors leading-tight'>
+                <h3 className='text-2xl md:text-3xl lg:text-4xl font-serif font-bold mb-2 text-white group-hover:text-[#c6a85a] transition-colors leading-tight'>
                   {leader.name}
                 </h3>
 
-                <span className='inline-block px-4 py-1 rounded-full border border-[#DFFF8F]/30  text-[#DFFF8F] text-[10px] md:text-xs font-mono mb-6 uppercase tracking-widest'>
+                <span className='inline-block px-4 py-1 rounded-full border border-[#c6a85a]/30  text-[#c6a85a] text-[10px] md:text-xs font-mono mb-6 uppercase tracking-widest'>
                   {leader.role}
                 </span>
 

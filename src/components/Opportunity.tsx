@@ -75,13 +75,13 @@ export default function Opportunity() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}>
-            <h2 className='text-[#DFFF8F] font-mono text-[10px] md:text-xs tracking-[0.4em] uppercase mb-6'>
+            <h2 className='text-[#c6a85a] font-mono text-[10px] md:text-xs tracking-[0.4em] uppercase mb-6'>
               The Chayil Global Opportunity
             </h2>
             <p className='text-2xl md:text-4xl font-serif leading-tight mb-8 text-white'>
               Chayil Global is a strategic platform positioned at the
               intersection of{" "}
-              <span className='italic text-[#DFFF8F]'>
+              <span className='italic text-[#c6a85a]'>
                 faith, leadership and enterprise.
               </span>
             </p>
@@ -117,7 +117,7 @@ export default function Opportunity() {
         </div>
 
         {/* Visual Pillars Section */}
-        <h2 className='text-[#DFFF8F] font-mono text-[10px] md:text-xs tracking-[0.4em] uppercase mb-6'>
+        <h2 className='text-[#c6a85a] font-mono text-[10px] md:text-xs tracking-[0.4em] uppercase mb-6'>
           The Chayil Global Institution Ecosystem
         </h2>
         <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6'>
@@ -128,11 +128,11 @@ export default function Opportunity() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className='group p-8 rounded-[2.5rem] bg-gradient-to-br from-white/[0.05] to-transparent border border-white/5 hover:border-[#DFFF8F]/30 transition-all duration-500'>
-              <div className='w-12 h-12 rounded-xl bg-[#DFFF8F]/10 flex items-center justify-center text-[#DFFF8F] mb-6 group-hover:scale-110 transition-transform'>
+              className='group p-8 rounded-[2.5rem] bg-gradient-to-br from-white/[0.05] to-transparent border border-white/5 hover:border-[#c6a85a]/30 transition-all duration-500'>
+              <div className='w-12 h-12 rounded-xl bg-[#c6a85a]/10 flex items-center justify-center text-[#c6a85a] mb-6 group-hover:scale-110 transition-transform'>
                 {pillar.icon}
               </div>
-              <h4 className='text-xl font-bold mb-4 text-white group-hover:text-[#DFFF8F] transition-colors'>
+              <h4 className='text-xl font-bold mb-4 text-white group-hover:text-[#c6a85a] transition-colors'>
                 {pillar.title}
               </h4>
               <p className='text-gray-300 text-sm leading-relaxed group-hover:text-gray-100'>
@@ -149,7 +149,7 @@ export default function Opportunity() {
           viewport={{ once: true }}
           transition={{ delay: 0.6 }}
           className='mt-24 text-center'>
-          <div className='h-[1px] w-16 bg-[#DFFF8F]/30 mx-auto mb-8' />
+          <div className='h-[1px] w-16 bg-[#c6a85a]/30 mx-auto mb-8' />
           <p className='text-gray-300 font-serif italic text-lg md:text-xl max-w-3xl mx-auto leading-relaxed'>
             Chayil Global is designed as a long-term platform for building
             leadership, enterprise and institutional infrastructure across
