@@ -21,12 +21,12 @@ export default function Hero() {
             initial={{ y: -30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1.2 }}>
-            <span className='text-amber-300 font-mono text-xs md:text-sm tracking-[0.3em] uppercase mb-4 block max-lg:pt-5'>
+            <span className='text-[#c6a85a] font-mono text-xs md:text-sm tracking-[0.3em] uppercase mb-4 block max-lg:pt-5'>
               Kingdom Institutional Platform
             </span>
             <h1 className='text-3xl sm:text-3xl lg:text-5xl font-serif font-bold mb-3 leading-[1.1] tracking-tight mx-auto md:mx-0'>
               Connecting Global Capital, Leadership and Strategic Development{" "}
-              <span className='text-amber-300'>Across Africa</span>
+              <span className='text-[#c6a85a]'>Across Africa</span>
             </h1>
           </motion.div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.6 }}
             className='flex flex-col items-center md:items-start gap-4'>
             <a
-              className='w-full sm:w-auto px-8 md:px-10 py-5 bg-amber-text-amber-300 text-black font-bold rounded-full bg-amber-300 shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'
+              className='w-full sm:w-auto px-8 md:px-10 py-5 bg-amber-text-[#c6a85a] text-black font-bold rounded-full bg-[#c6a85a] shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'
               href='https://docs.google.com/forms/d/e/1FAIpQLSe7bvEJLfT6TmwdrKsR-he5ngOM_Uxd9iJkgvGmf6aQCvqeLg/viewform'
               target='__blank'>
               Request Private Access
