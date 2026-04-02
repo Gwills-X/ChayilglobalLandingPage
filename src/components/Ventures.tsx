@@ -16,14 +16,12 @@ const ventures = [
   {
     title: "Strategic Enterprise Ventures",
     desc: "Development of enterprise platforms including Chayil Digital, Chayil TV, Chayil Couture and Chayil Angels to support the ecosystem.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000", // Digital/Business
+    image: "strategicEnterprice.jpeg", // Digital/Business
   },
   {
-    title: "Agricultural Expansion",
+    title: "Leadership & Enterprise ",
     desc: "Expansion of farmland holdings and development of operations across strategic regions, supporting food production and rural development.",
-    image:
-      "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=2000", // Crop expansion
+    image: "leadership.jpeg", // Crop expansion
   },
 ];
 

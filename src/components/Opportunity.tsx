@@ -117,6 +117,9 @@ export default function Opportunity() {
         </div>
 
         {/* Visual Pillars Section */}
+        <h2 className='text-[#DFFF8F] font-mono text-[10px] md:text-xs tracking-[0.4em] uppercase mb-6'>
+          The Chayil Global Institution Ecosystem
+        </h2>
         <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6'>
           {pillars.map((pillar, i) => (
             <motion.div

@@ -12,13 +12,13 @@ const pillars = [
   {
     title: "Enterprise & Strategic Ventures",
     description:
-      "Building asset-backed ventures across agriculture, land development and strategic enterprise including Chayil Assets, Chayil Digital, and Chayil TV.",
+      "Building asset-backed ventures across agriculture, land development and strategic enterprise including Chayil Assets, Chayil Digital, Chayil TV, Chayil Couture Chayil Angels (Administrative and Operational Services).",
     number: "02",
   },
   {
-    title: "Missions & Kingdom Impact",
+    title: "Kingdom Impact & Social Transformation",
     description:
-      "Supporting missionary outreach and long-term institutional projects like Worship City and the proposed Research & Innovation University.",
+      "Chayil Global integrates enterprise with humanitarian and spiritual impact through initiatives supporting widows, families and communities. * Kingdom Impact Missions * Worship City Project * Research University",
     number: "03",
   },
 ];

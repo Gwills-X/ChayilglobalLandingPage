@@ -51,13 +51,12 @@ export default function Connect() {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
           className='flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6'>
-          <button className='w-full sm:w-auto px-8 sm:px-10 py-4 rounded-full bg-[#DFFF8F] text-black font-bold text-sm hover:bg-white transition-all hover:scale-105 active:scale-95'>
+          <a
+            className='w-full sm:w-auto px-8 sm:px-10 py-4 rounded-full bg-[#DFFF8F] text-black font-bold text-sm hover:bg-white transition-all hover:scale-105 active:scale-95'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSe7bvEJLfT6TmwdrKsR-he5ngOM_Uxd9iJkgvGmf6aQCvqeLg/viewform'
+            target='__blank'>
             Inquire About Partnership
-          </button>
-
-          <button className='w-full sm:w-auto px-8 sm:px-10 py-4 rounded-full border border-white/20 text-white font-bold text-sm hover:bg-white/5 transition-all'>
-            Download Prospectus
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

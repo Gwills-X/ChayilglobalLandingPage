@@ -54,12 +54,6 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-
-            <Link href='#cta'>
-              <button className='px-6 py-2 bg-[#DFFF8F] text-black rounded-full text-xs font-bold hover:scale-105 transition-transform shadow-[0_0_15px_rgba(223,255,143,0.3)]'>
-                JOIN NETWORK
-              </button>
-            </Link>
           </div>
 
           {/* Mobile Menu Toggle Button */}
@@ -129,18 +123,6 @@ export default function Navbar() {
                     </Link>
                   </motion.div>
                 ))}
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.7 }}
-                  className='pt-8 border-t border-white/10'>
-                  <Link href='#cta' onClick={toggleMenu}>
-                    <button className='w-full py-4 bg-[#DFFF8F] text-black font-bold rounded-xl'>
-                      JOIN NETWORK
-                    </button>
-                  </Link>
-                </motion.div>
               </div>
 
               {/* Branding at the bottom of sidebar */}

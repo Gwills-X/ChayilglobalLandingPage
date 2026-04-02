@@ -83,7 +83,7 @@ export default function Assets() {
             {/* Aerial Farmland */}
             <div className='relative rounded-[2rem] overflow-hidden col-span-2 h-full group'>
               <img
-                src='https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000'
+                src='WhatsApp Image 2026-04-02 at 1.33.18 PM.jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 '
                 alt='Aerial Farmland'
               />
@@ -92,7 +92,7 @@ export default function Assets() {
             {/* Land Clearing */}
             <div className='relative rounded-[2.5rem] overflow-hidden group'>
               <img
-                src='dendoktoor-agriculture-8275498_1920.jpg'
+                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (1).jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
                 alt='Land Development'
               />
@@ -100,7 +100,7 @@ export default function Assets() {
             {/* Cultivation */}
             <div className='relative rounded-[2.5rem] overflow-hidden group '>
               <img
-                src='https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?q=80&w=1000'
+                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (2).jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
                 alt='Cultivation'
               />
