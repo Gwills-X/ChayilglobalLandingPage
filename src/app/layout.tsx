@@ -60,12 +60,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://chayilfoundingnetwork.com",
     siteName: "Chayil Global",
-    title: "Chayil Global | Investor & Partner Network",
+    title: "Chayil Global | Private Capital Network",
     description:
       "Mobilizing global capital and Kingdom-minded leadership to build institutions and assets across Africa.",
     images: [
       {
-        url: "/chayilGlobalLogo (2).png", // Create a 1200x630px image and put it in your 'public' folder
+        url: "/opengraph-image.png", // Create a 1200x630px image and put it in your 'public' folder
         width: 1200,
         height: 630,
         alt: "Chayil Global Institutional Platform",
