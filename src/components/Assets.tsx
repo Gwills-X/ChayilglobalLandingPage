@@ -89,20 +89,21 @@ export default function Assets() {
               />
               <div className='absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors' />
             </div>
-            {/* Land Clearing */}
-            <div className='relative rounded-[2.5rem] overflow-hidden group'>
-              <img
-                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (1).jpeg'
-                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
-                alt='Land Development'
-              />
-            </div>
+
             {/* Cultivation */}
             <div className='relative rounded-[2.5rem] overflow-hidden group '>
               <img
                 src='WhatsApp Image 2026-04-02 at 1.33.18 PM (2).jpeg'
                 className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
                 alt='Cultivation'
+              />
+            </div>
+            {/* Land Clearing */}
+            <div className='relative rounded-[2.5rem] overflow-hidden group'>
+              <img
+                src='WhatsApp Image 2026-04-02 at 1.33.18 PM (1).jpeg'
+                className='w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700'
+                alt='Land Development'
               />
             </div>
           </motion.div>
