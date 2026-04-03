@@ -61,7 +61,7 @@ export default function Navbar() {
           <div className='lg:hidden flex items-center'>
             <button
               onClick={toggleMenu}
-              className='text-[#DFFF8F] p-2 focus:outline-none'>
+              className='text-[#c6a85a] p-2 focus:outline-none'>
               {/* Dynamic Icon Change */}
               <svg
                 xmlns='http://www.w3.org/2000/svg'
