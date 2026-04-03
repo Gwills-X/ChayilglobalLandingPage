@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://chayilfoundingnetwork.com",
     siteName: "Chayil Global",
-    title: "Chayil Global | Private Capital Network",
+    title: "Chayil Global | Private Founding Network",
     description:
       "Mobilizing global capital and Kingdom-minded leadership to build institutions and assets across Africa.",
     images: [
