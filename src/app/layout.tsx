@@ -26,7 +26,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://chayilfoundingnetwork.com"), // Replace with your actual domain later
   title: {
-    default: "Chayil Global | Leadership, Enterprise & Institutional Vision",
+    default: "Chayil Global | Private Founding Network",
     template: "%s | Chayil Global", // If a subpage has title "Leadership", it shows as "Leadership | Chayil Global"
   },
   description:
