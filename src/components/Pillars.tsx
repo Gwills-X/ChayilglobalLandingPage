@@ -12,7 +12,7 @@ const pillars = [
   {
     title: "Enterprise & Strategic Ventures",
     description:
-      "Building asset-backed ventures across agriculture, land development and strategic enterprise including Chayil Assets, Chayil Digital, Chayil TV, Chayil Couture, Chayil Angels (Administrative and Operational Services).",
+      "Enterprise & Strategic Ventures builds asset-backed ventures across agriculture, land development, media and creative industries through platforms such as Chayil Assets, Chayil Digital, Chayil TV, Chayil Couture and Chayil Angels, supported by the Chayil Global Talent Network, which connects investors with high-potential African talent to accelerate enterprise growth and scalable opportunities.",
     number: "02",
   },
   {
