@@ -88,11 +88,21 @@ export default function Pillars() {
           transition={{ duration: 1, delay: 0.5 }}
           className='text-center max-w-4xl mx-auto pt-10 border-t border-white/5'>
           <p className='text-gray-300 font-serif italic text-xl leading-relaxed'>
-            Chayil Global combines leadership development, enterprise and
-            kingdom-focused initiatives to build institutions and strategic
-            assets designed to serve communities and create lasting impact
-            across generations.
+            The Chayil Global Talent Network connects partners and ventures with
+            a curated community of high-potential African professionals,
+            entrepreneurs, and operators. Curated African Talent Access
+            exceptional professionals and emerging leaders. Strategic
+            Collaboration Connect with skilled operators to accelerate ventures
+            and projects. Global Opportunity Pathways Support African talent in
+            accessing international opportunities. Through private access to the
+            Chayil Founding Network, partners are connected to the wider Chayil
+            Global ecosystem, including privileged access to the Talent Network.
           </p>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSe7bvEJLfT6TmwdrKsR-he5ngOM_Uxd9iJkgvGmf6aQCvqeLg/viewform'
+            className='w-full mt-3 sm:w-auto px-8 md:px-10 py-5 bg-amber-text-[#c6a85a] text-black font-bold rounded-full bg-[#c6a85a] shadow-[0_10px_30px_rgba(223,255,143,0.3)] hover:scale-105 transition-transform duration-300 text-base md:text-lg flex items-center justify-center gap-3'>
+            Request Private Access to the Chayil Founding Network
+          </a>
         </motion.div>
       </div>
     </section>
